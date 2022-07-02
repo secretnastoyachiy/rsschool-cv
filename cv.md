@@ -29,3 +29,11 @@ Now I am 16 years old<br>
 And now I signed up for the 0 stage of JS / Frontend development at RS School, so that later I can sign up for the main RS School course<br>
 
 ---
+
+### Skills:
+- HTML5, CSS3 basics
+- Python basics
+- Java
+- Kotlin basics
+- Git, GitHub
+- VS Code, IntelliJ IDEA, Android Studio
