@@ -37,3 +37,25 @@ And now I signed up for the 0 stage of JS / Frontend development at RS School, s
 - Kotlin basics
 - Git, GitHub
 - VS Code, IntelliJ IDEA, Android Studio
+
+### Code example:
+**Task for an array from Samsung Campus**
+*Create an array of the first 20 Fibonacci numbers and print it to the screen. We remind you that the first and second members of the sequence are equal to ones, and each next one is the sum of the two previous ones: 1 1 2 3 5 8 13 21 34 55 ...*
+```java
+package nov10;
+
+public class HW5 {
+    public static void main(String[] args) {
+        int[] array = new int[20];
+
+        for (int i = 0; i < array.length; i++) {
+            if (i == 0 || i == 1) {
+                array[i] = 1;
+            } else {
+                array[i] = array[i-1] + array[i-2];
+            }
+            System.out.print(array[i] + " ");
+        }
+    }
+}
+```
