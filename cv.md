@@ -59,3 +59,18 @@ public class HW5 {
     }
 }
 ```
+
+---
+
+### Courses:
+
+- Android development in Java course from [Samsung Campus](https://samsung-campus.kz/) (completed)
+- RS School course «JavaScript/Front-end. Stage 0» (in progress)
+
+---
+
+### Languages:
+
+- English \- Beginner/Elementary  (according to the online test at ![EFset Logo](/images/efset-logo.png) [www.efset.org](https://www.efset.org/quick-check))
+- Russian \- Native
+- Kazakh \- Basic
