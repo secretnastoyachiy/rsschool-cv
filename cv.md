@@ -39,7 +39,7 @@ And now I signed up for the 0 stage of JS / Frontend development at RS School, s
 - VS Code, IntelliJ IDEA, Android Studio
 
 ### Code example:
-**Task for an array from Samsung Campus**
+**Task for an array from Samsung Campus:**<br>
 *Create an array of the first 20 Fibonacci numbers and print it to the screen. We remind you that the first and second members of the sequence are equal to ones, and each next one is the sum of the two previous ones: 1 1 2 3 5 8 13 21 34 55 ...*
 ```java
 package nov10;
