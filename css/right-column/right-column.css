@@ -10,7 +10,7 @@
 }
 
 .title-right-column-container h3 {
-    width: 457px;
+    width: 472px;
     flex: 1;
     vertical-align: middle;
     text-transform: uppercase;
@@ -51,4 +51,19 @@
 
 .content-right-column-container a:hover {
     color: darkcyan;
+}
+
+.content-right-column-container pre {
+    width: 935px;
+    margin-left: -402px;
+    margin-top: -97px;
+    padding-left: 30px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+}
+
+.content-right-column-container img {
+    margin-top: -33px;
+    margin-left: 367px;
 }

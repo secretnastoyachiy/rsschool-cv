@@ -94,6 +94,7 @@
                                 <span>Kazakh</span>
                                 <p>Basic</p>
                             </li>
+                            <li><p><br><br><br><br><br><br><br><br><br><br></li>
                         </ul>
                         <h3>Languages</h3>
                     </section>
@@ -153,6 +154,41 @@
                                     <li>RS School course «JavaScript/Front-end. Stage 0» (in progress)</li>
                                 </ul>
                                 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="code-example">
+                    <div class="code-example-container">
+                        <div class="line-code-example-container">
+                            <div class="title-right-column-container">
+                                <img src="images/code.png" alt="bio" width="30" height="30">
+                                <h3>Code example</h3>
+                            </div>
+                            <div class="content-right-column-container">
+                                <p>Task for an array from Samsung Campus: Create an array of the first 20 Fibonacci
+                                    numbers and print it to the screen. We remind you that the first and second
+                                    members of the sequence are equal to ones, and each next one is the sum of the
+                                    two previous ones: 1 1 2 3 5 8 13 21 34 55 …</p>
+                                <img src="images/arrow.png" alt="arrow" width="350" height="350">
+                                <pre>
+                                    <code>package nov10;
+
+                                        public class HW5 {
+                                            public static void main(String[] args) {
+                                                int[] array = new int[20];
+                                        
+                                                for (int i = 0; i < array.length; i++) {
+                                                    if (i == 0 || i == 1) {
+                                                        array[i] = 1;
+                                                    } else {
+                                                        array[i] = array[i-1] + array[i-2];
+                                                    }
+                                                    System.out.print(array[i] + " ");
+                                                }
+                                            }
+                                        }</code>
+                                </pre>
                             </div>
                         </div>
                     </div>
