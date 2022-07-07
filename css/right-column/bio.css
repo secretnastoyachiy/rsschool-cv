@@ -1,0 +1,29 @@
+.right-column img {
+    margin-top: 36px;
+    margin-left: 45px;
+}
+
+.title-right-column-container h3 {
+    width: 457px;
+    flex: 1;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: var(--light-gray-color);
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 27px;
+    letter-spacing: 2px;
+    margin-left: 87px;
+    margin-top: -33px;
+    border-bottom: 2px solid var(--light-gray-color);
+}
+
+.content-right-column-container p {
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--light-gray-color);
+    letter-spacing: 1px;
+    margin-left: 87px;
+    margin-top: 18px;
+    width: 487px;
+}

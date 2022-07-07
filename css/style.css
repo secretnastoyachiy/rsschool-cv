@@ -32,6 +32,13 @@ body {
     width: 42%;
 }
 
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    background-color: #ffffff;
+}
+
 .left-column-header {
     padding: 30px;
     text-align: center;
