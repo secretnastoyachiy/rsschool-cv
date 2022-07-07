@@ -1,3 +1,9 @@
+:root {
+    --dark-gray-color: #505050;
+    --light-gray-color: #777777;
+    --purple-color: #ccccff;
+}
+
 .right-column img {
     margin-top: 36px;
     margin-left: 45px;
@@ -26,4 +32,23 @@
     margin-left: 87px;
     margin-top: 18px;
     width: 487px;
+}
+
+.content-right-column-container ul {
+    font-size: 17px;
+    line-height: 31px;
+    color: var(--light-gray-color);
+    letter-spacing: 1px;
+    margin-left: 46px;
+    margin-top: 18px;
+    width: 487px;
+}
+
+.content-right-column-container a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.content-right-column-container a:hover {
+    color: darkcyan;
 }
