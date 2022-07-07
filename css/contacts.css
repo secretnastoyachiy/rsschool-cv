@@ -1,3 +1,9 @@
+:root {
+    --dark-gray-color: #505050;
+    --light-gray-color: #777777;
+    --purple-color: #ccccff;
+}
+
 .contacts-container {
     height: 340px;
     background-color: var(--purple-color);
