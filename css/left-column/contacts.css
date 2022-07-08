@@ -1,0 +1,75 @@
+:root {
+    --dark-gray-color: #505050;
+    --light-gray-color: #777777;
+    --purple-color: #ccccff;
+}
+
+.contacts-container {
+    height: 340px;
+    background-color: var(--purple-color);
+}
+
+.contacts-container a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.contacts-container a:hover {
+    color: black;
+}
+
+.contacts h3 {
+    font-weight: 500;
+    font-size: 21px;
+    margin: -354px auto 20px;
+    width: 170px;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    color: #ffffff;
+    background-color: var(--dark-gray-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.line-container-phone {
+    display: flex;
+    padding-top: 43px;
+    margin-left: 41px;
+}
+
+.line-container-email {
+    display: flex;
+    padding-top: 16px;
+    margin-left: 41px;
+}
+
+.line-container-telegram {
+    display: flex;
+    padding-top: 16px;
+    margin-left: 41px;
+}
+
+.line-container-vk {
+    display: flex;
+    padding-top: 16px;
+    margin-left: 41px;
+}
+
+.line-container-instagram {
+    display: flex;
+    padding-top: 16px;
+    margin-left: 44px;
+}
+
+.line-content-container {
+    font-size: 21px;
+    padding-top: 6px;
+    padding-left: 15px;
+    color: var(--dark-gray-color);
+    font-weight: 500;
+}
+
+.line-img-container {
+    padding-left: 13px;
+}

@@ -1,0 +1,101 @@
+:root {
+    --dark-gray-color: #505050;
+    --light-gray-color: #777777;
+    --purple-color: #ccccff;
+}
+
+p {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Cabin", sans-serif;
+    margin: 20px auto;
+    width: 1024px;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    height: 1668px;
+    background-color: #ffffff;
+}
+
+.left-column-header {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.left-column-header h1 {
+    margin-top: 26px;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 8px;
+    color: #4f4f4f;
+    text-transform: uppercase;
+}
+
+.left-column-header h2 {
+    color: var(--dark-gray-color);
+    margin-top: 8px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.portrait {
+    width: 250px;
+    margin-bottom: -15px;
+    border: 10px solid var(--purple-color);
+    border-radius: 50%;
+}
+
+.container footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: -23px;
+    font-size: 12.8px;
+    color: #ffffff;
+    background-color: var(--dark-gray-color);
+}
+
+.container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container a:hover {
+    color: cadetblue;
+}
+
+.my-github p {
+    margin-left: 33px;
+    margin-top: -23px;
+}
+
+footer p {
+    margin-left: -40px;
+}
